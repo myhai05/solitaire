@@ -1,8 +1,8 @@
-import React from "react";
 
 
-const createDeck = () => {
-    const COULEURS = ['\u2665', '\u2666'];
+
+const createPile = () => {
+    const COULEURS = ['\u2663', '\u2660'];
     const VALEURS = ['As', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'D', 'R'];
     let deck = [];
     for (let suit of COULEURS) {
@@ -13,4 +13,4 @@ const createDeck = () => {
     return deck;
 };
 
-export default createDeck;
+export default createPile;
